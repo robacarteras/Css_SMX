@@ -97,6 +97,11 @@ body{
   grid-column: 2/3;
   grid-row: 7/6;
 }
+#container .pie2{
+  background-color:#00FF7F;
+  grid-column: 3/4;
+  grid-row: 7/6;
+}
 
 #container .imagen1 img{
   width: 90%;
