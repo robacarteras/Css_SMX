@@ -12,7 +12,7 @@ body{
   background-size: cover;
 }
 
-#container{
+#pages{
   display:grid;
   border: 1px solid red;
   grid-template-columns: 3.75fr 8.75fr 8.75fr 3.75fr;
@@ -21,7 +21,7 @@ body{
   grid-row-gap: 10px;
 }
 
-#container .cabecera{
+#pages .cabecera{
   padding: 9px;
   background-color:#FF7F50;
   border-radius: 5px;
@@ -29,7 +29,7 @@ body{
   grid-row: 1/2;
 }
 
-#container .texto1{
+#pages .texto1{
   padding: 9px;
   background-color:#006400;
   border-radius: 5px;
@@ -37,7 +37,7 @@ body{
   grid-row: 4/2;
 }
 
-#container .imagen1{
+#pages .imagen1{
   padding: 9px;
   background-color:#0000;
   border-radius: 5px;
@@ -45,7 +45,7 @@ body{
   grid-row: 3/3;
 }
 
-#container .texto2{
+#pages .texto2{
   padding: 9px;
   background-color:#32CD32;
   border-radius: 5px;
@@ -53,7 +53,7 @@ body{
   grid-row: 6/4;
 }
 
-#container .imagen2{
+#pages .imagen2{
   padding: 9px;
   background-color:#0000;
   border-radius: 5px;
@@ -61,7 +61,7 @@ body{
   grid-row: 5/6;
 }
 
-#container .texto3{
+#pages .texto3{
   padding: 9px;
   background-color:#228B22;
   border-radius: 5px;
@@ -69,7 +69,7 @@ body{
   grid-row: 6/4;
 }
 
-#container .imagen3{
+#pages .imagen3{
   padding: 9px;
   background-color:#0000;
   border-radius: 5px;
@@ -77,7 +77,7 @@ body{
   grid-row: 5/6;
 }
 
-#container .texto4{
+#pages .texto4{
   padding: 9px;
   background-color:#2E8B57;
   border-radius: 5px;
@@ -85,37 +85,37 @@ body{
   grid-row: 2/4;
 }
 
-#container .imagen4{
+#pages .imagen4{
   padding: 9px;
   background-color:#0000;
   border-radius: 5px;
   grid-column: 3/3;
   grid-row: 3/4;
 }
-#container .pie{
+#pages .pie{
   background-color:#00FF7F;
   grid-column: 2/3;
   grid-row: 7/6;
 }
-#container .pie2{
+#pages .pie2{
   background-color:#00FF7F;
   grid-column: 3/4;
   grid-row: 7/6;
 }
 
-#container .imagen1 img{
+#pages .imagen1 img{
   width: 90%;
   height: 90%;
 }
-#container .imagen2 img{
+#pages .imagen2 img{
   width: 90%;
   height: 90%;
 }
-#container .imagen3 img{
+#pages .imagen3 img{
   width: 90%;
   height: 90%;
 }
-#container .imagen4 img{
+#pages .imagen4 img{
   width: 90%;
   height: 90%;
 }
